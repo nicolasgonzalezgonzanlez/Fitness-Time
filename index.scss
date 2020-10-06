@@ -1,0 +1,315 @@
+@import "node_modules/materialize-css/sass/materialize.scss";
+
+body
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:500;
+    background-color: #FBF9F9;
+}
+//logo
+#logo-container .navegacion
+{
+    background-color: white;
+}
+#logo-container i 
+{
+    margin-right: 15px;
+    margin-top: 10px;
+    color: black;
+}
+#logo-container nav
+{
+    height: 80px;
+}
+#logo-container nav img
+{
+    max-height: 75px;
+    max-width: inherit;
+}
+#logo-container nav .responsive-img
+{
+    margin-top: 15px;
+    max-height: 45px;
+    max-width: inherit;
+}
+#logo-container nav ul a{
+  margin-top: 9px;    
+  color: #199798;   
+}
+//tamaño de iconos 
+#info-home i
+{
+        font-size: 75px
+}
+
+#parallax h1, #parallax2 h1, #parallax3 h1 {
+    
+    color:#199798;
+}
+#parallax img, #parallax2 img
+{
+    max-height: 100%;
+    right: auto;
+}
+//footer
+#footer img 
+{
+   max-height: 50px;
+    max-width: 50px;
+}
+#footer i
+{
+    font-size: 30px;
+    color: black;
+}
+#logo-container nav, #footer footer
+{
+    background-color: #199798;
+}
+#footer .num
+{
+  padding-left: 2em;  
+}
+#footer .dropdown-button.btn
+{
+    margin-top: 15px;
+}
+//termina el footer
+#parallax2 strong, #parallax3 strong
+{
+    color:#f4cb0b;
+}
+/* #f4cb0b */
+#index-banner-servicios .row, #index-banner-servicios-dos .row 
+{
+     opacity: 0.7;
+    filter:  alpha(opacity=50);
+    background-color: #EEF2F3;
+}
+#index-banner-servicios-dos h1
+{
+    margin-top: 75px;
+}
+
+#columnas .modal-content p
+{
+    margin-top: 120px;
+    font-size: 25px;
+    color: darkcyan;  
+}
+#map img
+{
+   height:auto;
+   width: 970px;
+   align-items: center;    
+}
+//palabras en negrita
+#filo-pie-de-imagen strong, #info-home strong, #info-home2 strong, #card strong, #entrenamiento-info strong
+{
+    font-weight:900;
+}
+
+//paralax
+#parallax3
+{
+    font-weight:900;
+    
+}
+
+//seccion home cambios sobre los cartas
+#btn-mod .btn-floating i
+{
+    margin-top: 5px;
+}
+#card .divider
+{
+    margin-top: 15px;
+}
+#card
+{
+    margin-top: 50px;
+}
+#servicio-pys .collapsible-header
+{
+    
+    background-color: #FBF9F9;
+}
+#card-gigante img
+{
+    max-height: 600px;
+}
+#form-donde label .email
+{
+    margin-left: 320px;
+}
+#form-donde p 
+{
+    margin-top: -30px;
+    text-align: center;
+}
+p
+{
+    font-size: 17px;
+}
+//modals
+#modals strong
+{
+    font-weight:500;
+}
+#modals .center
+{
+    font-size: 12px;
+    color:#A5A5A5;
+}
+#modals .divider
+{
+    height: 1.5px;
+}
+//blogs
+//para que no se deforme
+@media only screen and (min-width: 601px){
+    #blog-notas .row .col.m6{
+        min-height: 550px;
+    }
+}
+#slider-home .fondo
+{
+    background-color: white;
+opacity: 0.3;
+    width:500%;
+height:500%;
+    margin-left: -300px;
+    float:left;
+}
+#slider-home .delante
+{
+    margin-top: 20px;
+    position:absolute;
+}
+#slider-home h1, #slider-home h2, #slider-home h3, #slider-home h4, #slider-home h5, #slider-home h6, #slider-home p
+{
+   color: #9aea4b;
+}
+//menu especial
+@media(max-width: 600px){
+    #menu-especial nav img {
+        max-height: 50px;
+        margin-top: 15px;
+    }
+}@media(min-width: 599px){
+    #menu-especial nav img {
+        max-height: 75px;
+        max-width: inherit;
+    }
+}
+#menu-especial nav
+{
+    background-color: white;
+    height: 80px;
+}
+#menu-especial i 
+{
+    color:black;
+    font-size: 30px;
+    margin-top: 5px;
+}
+//termina menu
+#slide-out .contenido
+{
+    font-size: 20px;
+    color: white;
+    line-height: 140%;
+    text-align: center;
+    text-decoration:underline;
+}
+#blog-notas strong, #notas strong
+{
+    font-weight:700;
+}
+#blog-notas .card-title
+{
+    font-weight:700;
+    color: white;
+      position:absolute;
+}
+#blog-notas .fondo
+{
+   background-color: #636262;
+opacity: 0.5;
+    width:100%;
+    float:left;
+    margin-top: -43%;
+}
+
+//notas
+#notas .divider
+{
+    background-color: black;
+}
+#notas .icons
+{
+     max-height: 50px;
+    max-width: 50px;
+    text-align: center;
+}
+//color icons
+#face
+{
+    background-color: #005983;
+}
+#twit
+{
+    background-color: #33b1e2;
+}
+#gmas
+{
+    background-color: #f41b1a;
+}
+//paralax principal notas
+@media(max-width: 600px){
+    #parallax-nota .fondo{
+    background-color: #636262;
+    opacity: 0.5;
+    width:100%;
+    float:left;
+    font-size:  300px;    
+    }
+}
+@media(min-width: 599px){
+   #parallax-nota .fondo{
+    background-color: #636262;
+    opacity: 0.5;
+    width:100%;
+    float:left;
+    }
+}
+@media (max-width: 600px){
+    #parallax-nota h1, #parallax-nota h2{
+    color: white;
+    font-weight:500;
+    position:absolute;
+    }
+    
+}
+@media (min-width: 599px){
+    #parallax-nota h1, #parallax-nota h2{
+    color: white;
+    font-weight:900;
+    position:absolute;
+    }
+    
+}
+//span notas para titulos dentro de parrafos
+#notas b
+{
+    font-weight:600;
+    font-size: 120%;
+    color: #43c600;
+    
+}
+//icons 
+#notas i {
+    font-size: 25px;
+    
+}
+ 

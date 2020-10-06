@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113509359-1"></script>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-113509359-1');
+</script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Blog</title>
+    <link rel="shortcut icon" href="../public/icons/ft.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/app.css">
+</head>
+<body>
+    <section id="menu-especial">
+       <div class="navbar-fixed">
+        <nav class="navegacion">
+            <div class="row">
+                <a href="../index.html" class="brand-logo center">
+                           <img src="../logo.png" alt="Fitness Time">
+                        </a>
+                <a href="#" data-activates="slide-out" class="button-collapse show-on-large">
+                            <i class="material-icons">menu</i>
+                        </a>
+            </div>
+        </nav>
+        </div>
+    </section>
+    <!-- menu especial -->
+        <ul id="slide-out" class="side-nav">
+            <li>
+                <div class="user-view">
+                    <div class="background">
+                        <img class="responsive-img" src="../public/blog/mini_OGA3KP0.jpg">
+                    </div>
+                    <p class="contenido">Utiliza este menú para clasificar las entradas por categorías</p>
+                    <br>
+                </div>
+            </li>
+            <li>
+                <a class="subheader">Categorías</a>
+            </li>
+            <li>
+                <a  class="liLink" category="all" id="todas" href="#!"><i class="brown-text material-icons">all_inclusive</i>Todas las notas</a>
+            </li>
+            <li>
+                <a class="liLink" category="nutricion" id="nutricion" href="#!"><i class="green-text text-accent-4 material-icons">local_dining</i>Nutrición</a>
+            </li>
+            <li>
+                <a class="liLink" category="rutinas" id="Rutinas" href="#!"><i class=" cyan-text text-darken-2 material-icons">fitness_center</i>Rutinas</a>
+            </li>
+            <li>
+                <div class="divider"></div>
+            </li>
+            <li>
+                <a class="subheader">Consejos</a>
+            </li>
+            <li>
+                <a class="liLink" category="widgets" id="widgets" href="#!"><i class="light-green-text text-darken-2 material-icons">widgets</i>Aplicaciones útiles</a>
+            </li>
+            <li>
+                <a class="liLink" category="notas" id="Notas" href="#!"><i class="amber-text text-darken-4 material-icons">sort</i>Notas destacadas</a>
+            </li>
+            <li>
+                <div class="divider"></div>
+            </li>
+            <li>
+                <a class="subheader">Inicio</a>
+            </li>
+            
+            <li>
+                <a href="../index.html"><i class="material-icons">chevron_left</i>Volver a la página principal</a>
+            </li>
+        </ul>
+    <!-- /menu especial -->
+        <section id="slider-home">
+          <div class="slider">
+                <ul class="slides">
+                    <li>
+                        <img class="responsive-img" src="../public/blog/fondo%20negro.jpg" alt="imagen celular"> <!-- random image -->
+                        <div class="caption center-align">
+                            <div class="fondo"><br><br><br><br><br><br><br><br><br></div>
+                            <div class="delante">
+                                <h3>Blog</h3>
+                            <h5>Encuentra la información de nutrición y gimnasia</h5>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="responsive-img" src="../public/blog/cafe.jpg" alt="imagen celular"> <!-- random image -->
+                        
+                        <div class="caption center-align">
+                            <div>
+                                <br>
+                                <h3>¿Quieres escribir tu contenido?</h3>
+                                <h5>Escribe tu contendió y nosotros lo subimos.</h5>
+                                 <br>  <br>   
+                                <a href="../page/Portafolio.html" id="download-button" class="btn-large waves-effect waves-light ">Contacto</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img class="responsive-img" src="../public/blog/plato.jpg" alt="imagen celular"> <!-- random image -->
+                        
+                        <div class="caption center-align">
+                            <div class="fondo"><br><br><br><br><br><br><br><br><br></div>
+                            <div class="delante">
+                                <h3>Recetas</h3>
+                                <h5>Encontra las mejores recetas saludables.</h5>
+                            </div>
+                        </div>
+                    </li>
+              </ul>
+            </div>
+        </section>
+    <!-- notas -->
+        <section id="blog-notas">
+            <div class="row">
+                <div class="container">
+                   <!-- nutricion -->
+                    <div class="col s12 m6 nota" category="nutricion">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="../public/notas/gaseosa.jpg">
+                                     <span class="fondo"><br /><br /><br /><br /><br /><br /></span>
+                                    <span class="card-title">60 minutos después de tomar gaseosa light</span>
+                                    <a class="btn-floating halfway-fab waves-effect waves-light green accent-4"><i class="material-icons">local_dining</i></a>
+                                </div>
+                                <div class="card-content">
+                                    <p>
+                                         El <strong> consumo diario </strong>de <strong> refrescos</strong> dietéticos se asocia con un 36% de contraer<strong> síndrome metabólico</strong>, y un 67% de contraer <strong>diabetes tipo 2</strong> en comparación con el que <strong>no consume</strong>, según el estudio <strong>“Multi-Ethnic Study of Atherosclerosis (MESA)”</strong>.
+                                    </p>
+                                    <br>
+                                    <a href="../notas/gaseosas.html">Seguir leyendo</a>
+                                </div>
+                            </div>
+                    </div>
+                    <!-- /nutricion -->
+                   <!-- nutricion -->
+                    <div class="col s12 m6 nota" category="nutricion">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="../public/notas/desayuno.jpg">
+                                     <span class="fondo"><br /><br /><br /><br /><br /><br /></span>
+                                    <span class="card-title">¿Es reamente el desayuno la comida más importante?</span>
+                                    <a class="btn-floating halfway-fab waves-effect waves-light green accent-4"><i class="material-icons">local_dining</i></a>
+                                </div>
+                                <div class="card-content">
+                                    <p>
+                                         Desde un punto fisiológico<strong> la primer comida</strong> del día “rompe” con un periodo prolongado de ayuno (el sueño). Durante las horas de sueño muchas de las <strong> funciones cerebrales </strong>“se duermen” debido a esto se requiere un gran aporte energético para reactivarlas. 
+                                    </p>
+                                    <br>
+                                    <a href="../notas/Desayuno.html">Seguir leyendo</a>
+                                </div>
+                            </div>
+                    </div>
+                    <!-- /nutricion -->
+                    <!-- gym-->
+                    <div class="col s12 m6 nota" category="rutinas">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="../public/notas/escalera-hombre.jpg">
+                                     <span class="fondo"><br /><br /><br /><br /><br /><br /></span>
+                                    <span class="card-title">
+                                        Cuatro tips rápidos para una rutina efectiva 
+                                    </span>
+                                     <a class="btn-floating halfway-fab waves-effect waves-light cyan darken-2"><i class="material-icons">fitness_center</i></a>
+                                </div>
+                                <div class="card-content">
+                                    <p>
+                                         Voy a <strong>resumirte en cuatro simples pasos </strong>la mejor manera de “empezar” a <strong>entrenar </strong>a tu casa o  al aire libre <strong>sin tener que comprar absolutamente nada</strong>. Estos tips son la base para <strong>cualquier persona </strong>ya sea con experiencia o sin ella.
+                                    </p>
+                                    <br>
+                                    <a href="../notas/rutina.html">Seguir leyendo</a>
+                                </div>
+                            </div>
+                    </div>
+                    <!-- /gym-->
+                    <!-- aplicaciones utiles -->
+                   <!-- <div class="col s12 m6 nota" category="widgets">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="../public/notas/fruta.jpg">
+                                     <span class="fondo"><br /><br /><br /><br /><br /><br /></span>
+                                    <span class="card-title">Las mejores 5 aplicaciones que debes tener en tu celular</span>
+                                    <a class="btn-floating halfway-fab waves-effect waves-light light-green darken-2"><i class="material-icons">widgets</i></a>
+                                </div>
+                                <div class="card-content">
+                                    <p>
+                                         Desde un punto fisiológico<strong> la primer comida</strong> del día “rompe” con un periodo prolongado de ayuno (el sueño). Durante las horas de sueño muchas de las <strong> funciones cerebrales </strong>“se duermen” debido a esto se requiere un gran aporte energético para reactivarlas. 
+                                    </p>
+                                    <br>
+                                    <a href="#">Seguir leyendo</a>
+                                </div>
+                            </div>
+                    </div>
+                    <!-- /aplicaciones utiles -->
+                    <!-- Notas destacadas -->
+                  <!--  <div class="col s12 m6 nota" category="notas">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="../public/card-Grande%20(1).jpg">
+                                     <span class="fondo"><br /><br /><br /><br /><br /><br /></span>
+                                    <span class="card-title">¿Es reamente el desayuno la comida más importante?</span>
+                                     <a class="btn-floating halfway-fab waves-effect waves-light amber darken-4"><i class="material-icons">sort</i></a>
+                                </div>
+                                <div class="card-content">
+                                    <p>
+                                         Desde un punto fisiológico<strong> la primer comida</strong> del día “rompe” con un periodo prolongado de ayuno (el sueño). Durante las horas de sueño muchas de las <strong> funciones cerebrales </strong>“se duermen” debido a esto se requiere un gran aporte energético para reactivarlas. 
+                                    </p>
+                                    <br>
+                                    <a href="#">Seguir leyendo</a>
+                                </div>
+                            </div>
+                    </div>
+                    <!-- /Notas destacadas --> 
+                   </div>
+               </div>
+        </section>
+    
+    <!-- /notas -->
+   
+    <section id="footer">
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m6">
+                        <h2 class="center brown-text"><i class="material-icons">email</i></h2>
+                        <h6 class="center">nicolasgonzalezpersonaltrainer@gmail.com</h6>
+                    </div>
+                    <div class="col s12 m6 center-align">
+                        <h2 class="center brown-text"><i class="material-icons">phone_android</i></h2>
+                        <h6 class="num">+542333043482 (Gonzalez Nicolás)</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 center-align">
+                        <a href="https://www.facebook.com/nicolasgonzalez.personaltrainer/" target="_blank"><img src="../public/icons/facebook.png" alt="facebook"></a>
+                        <a href="https://www.instagram.com/nicotegonzalez/" target="_blank" ><img src="../public/icons/Instagram.png" alt="Instagram"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    <p class="left"> © 2017 Copyright</p>
+                      <a class='right dropdown-button btn' href='#' data-activates='dropdown3'>More links</a>
+                </div> 
+                <ul id='dropdown3' class='dropdown-content'>
+                    <li><a href="../page/licencias.html">Licencias</a></li>
+                    <li><a href="#!">Pagina del creador</a></li>
+                </ul>
+            </div>
+        </footer>
+    </section>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script type="text/javascript" src="../servidor.js"></script>
+    <script type="text/javascript" src="../jquery.js"></script>
+    <script type="text/javascript" src="../functionblog.js"></script>
+</body>
+</html>

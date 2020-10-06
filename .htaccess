@@ -1,0 +1,18 @@
+#<IfModule mod_rewrite.c>
+#RewriteEngine On
+#RewriteBase /
+#RewriteRule ^index\.php$ - [L]
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule . /index.php[L]
+#</IfModule>
+
+#aca empieza las url amigables
+
+<ifModule mod_rewrite.c>
+  RewriteBase /
+  RewriteEngine On
+  RewriteCond% {REQUEST_FILENAME}! -f
+  RewriteCond% {REQUEST_FILENAME}! -d
+  RewriteRule ^/([a-zA-Z-]+)/([a-zA-Z0-9-]+).html
+</ ifModule>

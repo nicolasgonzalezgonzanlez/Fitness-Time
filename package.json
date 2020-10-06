@@ -1,0 +1,32 @@
+{
+  "name": "personal",
+  "version": "0.1.0",
+  "description": "Entrenamiento personalizado Nicolas gonzalez",
+  "main": "servidor.js",
+  "keywords": [
+    "entrenador",
+    "personal",
+    "personal",
+    "trainer",
+    "nicolas",
+    "gonzalez",
+    "mar",
+    "del",
+    "plata",
+    "argentina",
+    "funcional",
+    "workout",
+    "running"
+  ],
+  "author": "Gonzalez Nicolas",
+  "license": "Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)",
+  "dependencies": {
+    "express": "^4.16.2",
+    "materialize-css": "^0.100.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0"
+  }
+}
